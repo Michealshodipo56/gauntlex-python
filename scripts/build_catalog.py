@@ -35,7 +35,7 @@ def discover(source, base):
                 yield name, path, item.get("prerequisites", []), track
     elif kind == "days":
         for p in sorted(base.iterdir()):
-            if p.is_dir() and re.match(r"(?i)^day[ _-]?\\d+", p.name):
+            if p.is_dir() and re.match(r"(?i)^day[ _-]?[0-9]+", p.name):
                 yield p.name, p.relative_to(base).as_posix(), [], "lesson"
     elif kind == "c1":
         for p in sorted((base / "curriculum").glob("week-*")):
