@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "exercism",
+      "repo": "Michealshodipo56/python-curriculum",
+      "upstream": "exercism/python",
+      "license": "MIT",
+      "import_allowed": true,
+      "kind": "exercism"
+    },
+    {
+      "id": "thirty-days",
+      "repo": "Michealshodipo56/30-Days-Of-Python",
+      "upstream": "Asabeneh/30-Days-Of-Python",
+      "license": "UNVERIFIED",
+      "import_allowed": false,
+      "kind": "days"
+    },
+    {
+      "id": "c1",
+      "repo": "Michealshodipo56/C1-Code-Crunch-Convos",
+      "upstream": "CODECRUNCHWORLDWIDE/C1-Code-Crunch-Convos",
+      "license": "GPL-3.0",
+      "import_allowed": false,
+      "kind": "c1"
+    },
+    {
+      "id": "learn-python",
+      "repo": "Michealshodipo56/learn.python",
+      "upstream": "travisjneuman/learn.python",
+      "license": "MIT",
+      "import_allowed": true,
+      "kind": "learn"
+    }
+  ]
+}
