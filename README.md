@@ -30,3 +30,12 @@ Each challenge needs a stable ID, original source and license metadata, prerequi
 ## Current status
 
 Repository initialized with the integration plan. **No source curriculum exercises have been imported or validated yet.**
+## Build a source inventory
+
+From the repository root (requires Git and Python 3.11+):
+
+```bash
+bash scripts/clone_sources.sh
+```
+
+This clones the four forks into ignored `sources/` directories and writes `curriculum/catalog.json`. The catalog is **not** an approved curriculum and contains no imported exercise bodies. Exercise boundaries outside Exercism are discovery candidates and need human review. Source checkout and script execution have not yet been verified in CI.
